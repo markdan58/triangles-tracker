@@ -7,25 +7,25 @@
 
 <body>
     <h1>Triangle Tracker</h1>
-    <form id="form"></form>
+
     <div class="col-md-12">
-        <label id="slide1"><b>Enter Side1</b></label>
-        <input type="text">
+        <label><b>Enter Side1</b></label>
+        <input type="text" id="slide1">
     </div>
     <br>
     <div class="col-md-12">
-        <label id="slide1"><b>Enter Side2</b></label>
-        <input type="text">
+        <label><b>Enter Side2</b></label>
+        <input type="text" id="slide2">
     </div>
     <br>
     <div class="col-md-12">
-        <label id="slide1"><b>Enter Side3</b></label>
-        <input type="text">
+        <label><b>Enter Side3</b></label>
+        <input type="text" id="slide3">
     </div>
     <br>
-    <button id="display" type="submit" class="btn btn-">Enter</button>
-    </form>
+    <input type="button" value="Submit" onclick="tracker()">
     <img src="image/triangles.jpg">
+    <p id="display"></p>
     <script src="scripts.js"></script>
 </body>
 
